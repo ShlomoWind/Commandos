@@ -2,7 +2,7 @@
 
 public class EnemyFactory
 {
-    private List<Enemy> EnemyList = new List<Enemy>();
+    public List<Enemy> EnemyList { get; } = new List<Enemy>();
     public void AddEnemy(string name)
     {
         EnemyList.Add(new Enemy(name));
