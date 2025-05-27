@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commandos\AirCommando.cs" />
+    <Compile Include="Commandos\CommandFactory.cs" />
     <Compile Include="Commandos\Commando.cs" />
+    <Compile Include="Commandos\EnemyFactory.cs" />
     <Compile Include="Commandos\SeaCommando.cs" />
     <Compile Include="Commandos\Weapon.cs" />
     <Compile Include="Commandos\Enemy.cs" />
+    <Compile Include="Commandos\WeaponFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

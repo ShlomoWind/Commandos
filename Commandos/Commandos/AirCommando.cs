@@ -9,7 +9,7 @@ public class AirCommando : Commando
     
     public void AddParachuting()
     {
-        this.NumberOfParachuting++;
+        this.NumberOfParachuting += 1;
     }
     public override void Attack()
     {
