@@ -3,7 +3,7 @@
 public class Commando
 {
     private string Name;
-    private string CodeName { get; set; }
+    private string CodeName;
     private string[] Tools = new string[5];
     private string Status;
 
