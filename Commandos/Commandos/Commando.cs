@@ -3,7 +3,7 @@
 public class Commando
 {
     private string Name;
-    private string CodeName;
+    private string CodeName { get; set; }
     private string[] Tools = new string[5];
     private string Status;
 
@@ -30,19 +30,19 @@ public class Commando
     {
         Console.WriteLine($"soldier {this.CodeName} is attacking");
     }
-    public void SayName(string commanderRank)
+    public string SayName(string commanderRank)
     {
         if(commanderRank == "General")
         {
-            Console.WriteLine(this.Name);
+            return this.Name;
         }
         else if(commanderRank == "Colonel")
         {
-            Console.WriteLine(this.CodeName);
+            return this.CodeName;
         }
         else
         {
-            Console.WriteLine("No access! Classified information!");
+            return "No access! Classified information!";
         }
     }
 }
