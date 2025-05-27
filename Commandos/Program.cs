@@ -10,6 +10,16 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
+            List<Commando> listOfCommandos = new List<Commando>
+            {
+            new Commando("dani", "d"),
+            new AirCommando("shlomo", "x"),
+            new SeaCommando("felix", "z")
+            };
+            foreach(Commando command in listOfCommandos)
+            {
+                command.Attack();
+            }
         }
     }
 }

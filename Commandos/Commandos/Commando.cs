@@ -26,9 +26,9 @@ public class Commando
         this.Status = "hiding";
         Console.WriteLine("soldier is hid");
     }
-    public void Attack()
+    public virtual void Attack()
     {
-        Console.WriteLine($"soldier {this.CodeName} is attacking");
+        Console.WriteLine($"soldier {this.Name} is attacking");
     }
     public string SayName(string commanderRank)
     {
