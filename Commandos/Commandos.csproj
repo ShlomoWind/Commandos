@@ -47,6 +47,7 @@
     <Compile Include="Commandos\Commando.cs" />
     <Compile Include="Commandos\SeaCommando.cs" />
     <Compile Include="Commandos\Weapon.cs" />
+    <Compile Include="Commandos\Enemy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
